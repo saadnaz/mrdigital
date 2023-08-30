@@ -1,8 +1,8 @@
 {
   "name": "mrdigital",
-  "homepage": "https://saadnaz.github.io",
+  "homepage": "https://saadnaz.github.io/mrdigital",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
