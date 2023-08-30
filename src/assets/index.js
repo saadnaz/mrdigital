@@ -32,7 +32,6 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
   send,
   shield,
   star,
