@@ -1,17 +1,17 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "Accueil",
+    title: "Accueil",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "Services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "Produits",
+    title: "Produits",
   },
   {
     id: "clients",
@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Grace à mrDigital et leur expertise nous avons pu prendre les bonnes orientations pour notre transformation digitale.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Nous avons réussi à mieux mitiger nos risques cyber en grande partie par l'aide apporter par mrDigital",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Les conseils apportés en stratégie du numérique ont été un grand apport dans nos objectifs de transformation digitale.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -73,19 +73,20 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Projets réalisés",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Projets encours",
+    value: "5",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+    title: "Nos clients",
+    value: "30+",
+  }
+
 ];
 
 export const footerLinks = [
@@ -94,23 +95,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.mrDigital.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.mrDigital.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.mrDigital.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.mrDigital.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.mrDigital.com/terms-and-services/",
       },
     ],
   },
@@ -119,23 +120,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.mrDigital.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.mrDigital.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.mrDigital.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.mrDigital.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.mrDigital.com/newsletters/",
       },
     ],
   },
@@ -144,11 +145,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.mrDigital.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.mrDigital.com/become-a-partner/",
       },
     ],
   },
