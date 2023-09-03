@@ -1,6 +1,6 @@
 import { Rotate } from 'react-reveal';
 import styles from "../style";
-import { discount, bgVidNum, desk, bgImgNum } from "../assets";
+import { discount, bgVidNum, bgImgNum } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
