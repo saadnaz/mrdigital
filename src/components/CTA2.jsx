@@ -3,7 +3,7 @@ import Button from "./Button";
 import { bgVidNum } from "../assets"
 
 const CTA2 = () => (
-  <section className={`${styles.flexCenter} ${styles.marginY}  sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <section className={`${styles.flexCenter} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="divVideo flex-1 flex flex-col">
       <video autoPlay loop muted id='video'>
         <source src={bgVidNum} type="video/mp4" />

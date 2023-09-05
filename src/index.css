@@ -43,7 +43,7 @@
 
 #video {
   position: absolute;
-  height: 100px;
+  height: 125px;
   object-fit: cover;
   z-index: 1;
   width: 100%;
