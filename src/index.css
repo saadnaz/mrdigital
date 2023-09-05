@@ -43,11 +43,11 @@
 
 #video {
   position: absolute;
+  left:20;
   height: 125px;
   object-fit: cover;
   z-index: 1;
   width: 100%;
-  -webkit-transform-style: preserve-3d;
   overflow: hidden
 }
 
