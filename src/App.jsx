@@ -1,19 +1,17 @@
 import Jump  from 'react-reveal/Jump';
 import styles from "./style";
 import { bgVidNum } from "./assets";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, CTA2, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    {/* <video autoPlay loop muted id='video'>
-      <source src={bgVidNum} type="video/mp4" />
-    </video> */}
+   
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
-
+    <CTA2 />
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -32,6 +30,7 @@ const App = () => (
 
         {/*   <Clients /> */}
         <CTA />
+        
         {/*  <Footer /> */}
       </div>
     </div>

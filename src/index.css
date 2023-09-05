@@ -30,13 +30,27 @@
   text-fill-color: transparent;
 }
 
-#video {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  z-index: 0;
-  position: fixed;
+.divVideo {
+  position: relative;
 }
+
+.upVideo {
+  z-index: 1;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#video {
+  position: absolute;
+  height: 100px;
+  object-fit: cover;
+  z-index: 1;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  overflow: hidden
+}
+
 
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,

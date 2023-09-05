@@ -24,7 +24,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 import desk from "./desk.jpg";
-import bgVidNum from "./circle.mp4";
+import bgVidNum from "./bg-vid.mp4";
 import bgImgNum from "./numerique_background.jpg";
 export {
   airbnb,
