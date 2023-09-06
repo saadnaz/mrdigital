@@ -1,4 +1,5 @@
 import Jump from 'react-reveal/Jump';
+import Rotate from 'react-reveal/Rotate';
 import styles from "./style";
 import { bgVidNum } from "./assets";
 import { Billing, Business, CardDeal, Clients, CTA, CTA2, Footer, Navbar, Testimonials, Hero, Contact } from "./components";
@@ -30,8 +31,12 @@ const App = () => (
 
         {/*   <Clients /> */}
         <CTA />
-        <Contact />
         <CTA2 />
+        <Rotate right>
+          <Contact />
+        </Rotate>
+
+
         {/*  <Footer /> */}
       </div>
     </div>
