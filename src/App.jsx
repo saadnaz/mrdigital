@@ -1,7 +1,7 @@
 import Jump from 'react-reveal/Jump';
 import styles from "./style";
 import { bgVidNum } from "./assets";
-import { Billing, Business, CardDeal, Clients, CTA, CTA2, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, CTA2, Footer, Navbar, Testimonials, Hero, Contact } from "./components";
 
 const App = () => (
   <div className="app bg-primary w-full overflow-hidden">
@@ -21,7 +21,6 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
 
       <div className={`${styles.boxWidth}`}>
-        <Stats />
         {/*  <Business />
         <Billing />
         <CardDeal /> */}
@@ -31,6 +30,7 @@ const App = () => (
 
         {/*   <Clients /> */}
         <CTA />
+        <Contact />
         <CTA2 />
         {/*  <Footer /> */}
       </div>
