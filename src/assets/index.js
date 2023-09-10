@@ -26,6 +26,8 @@ import people03 from "./people03.png";
 import desk from "./desk.jpg";
 import bgVidNum from "./bg-vid.mp4";
 import bgImgNum from "./numerique_background.jpg";
+
+import bgservices from "./bg-services.jpg";
 export {
   airbnb,
   bill,
@@ -53,5 +55,6 @@ export {
   people03,
   bgVidNum,
   bgImgNum,
-  desk
+  desk,
+  bgservices
 };

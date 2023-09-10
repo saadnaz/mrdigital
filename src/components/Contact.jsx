@@ -4,7 +4,7 @@ import styles from "../style";
 const Contact = () => (
   <div id="contact" class="block rounded-lg bg-gray-300 p-6">
 
-    <h1 class="block w-full text-center mb-6">Nous contacter</h1>
+    <h1 class="block w-full text-center text-5xl text-green-600 mb-5">Nous contacter</h1>
     <form class="mb-4 md:flex md:flex-wrap md:justify-between" action="https://formspree.io/f/xqkvbgbz" method="post">
       <div class="relative mb-6 w-full" data-te-input-wrapper-init>
         <input
