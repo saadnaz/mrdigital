@@ -22,6 +22,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import avatar from "./avatar.png"
+import avatarf from "./avatarf.png"
 
 import desk from "./desk.jpg";
 import bgVidNum from "./bg-vid.mp4";
@@ -56,5 +58,7 @@ export {
   bgVidNum,
   bgImgNum,
   desk,
-  bgservices
+  bgservices,
+  avatar,
+  avatarf
 };

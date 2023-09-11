@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, avatar, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -52,25 +52,25 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Grace à mrDigital et leur expertise nous avons pu prendre les bonnes orientations pour notre transformation digitale.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Ahmed D.",
+    title: "Directeur",
+    img: avatar,
   },
   {
     id: "feedback-2",
     content:
       "Nous avons réussi à mieux mitiger nos risques cyber en grande partie par l'aide apporter par mrDigital",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "Abdoulaye B.",
+    title: "Responsable technique",
+    img: avatar,
   },
   {
     id: "feedback-3",
     content:
       "Les conseils apportés en stratégie du numérique ont été un grand apport dans nos objectifs de transformation digitale.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Jean T.",
+    title: "PDG",
+    img: avatar,
   },
 ];
 
