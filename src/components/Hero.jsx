@@ -9,10 +9,16 @@ const Hero = () => {
 
       <div className={`flex-1 ${styles.flexStart} flex-col ${styles.paddingX}`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          {/*  <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Mettez-vous à l'heure <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Du numérique</span>{" "}
-          </h1>
+          </h1> */}
+          <p className="text-dimWhite text-[16px] leading-[24px] border-2 p-5 mr-5 box-shadow border-green-600">
+            Chez MrDigital, nous sommes déterminés à être votre partenaire de confiance pour votre transformation digitale.
+            Nous vous accompagnons de la définition de votre stratégie à la mise en œuvre de solutions sécurisées, en passant
+            par la gouvernance et la gestion continue, afin que votre entreprise prospère dans l'ère numérique en constante
+            évolution
+          </p>
           <Rotate>
             <div className="ss:flex hidden md:mr-4 mr-0">
               <GetStarted />
@@ -41,8 +47,8 @@ const Hero = () => {
 
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={bgImgNum} rounded className="rounded-[20px] sm:w-5/6  lg:w-4/5 xl:w-full xl:h-full relative z-[5]" />
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10  relative`}>
+        <img src={bgImgNum} rounded className="rounded-[20px] ml-16 mr-16 relative z-[5] min-w-[80%]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
